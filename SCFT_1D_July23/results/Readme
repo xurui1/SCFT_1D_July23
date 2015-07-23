@@ -1,0 +1,1 @@
+Fixed problem with initial conditions leading to solving the A vs. B concentration problem. Seems like I can just about stabilize the bilayer, but the code is crashing before finding the equilibrium solution. This is an intermediate step.

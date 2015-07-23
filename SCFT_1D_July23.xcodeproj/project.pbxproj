@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7972B0A01B61773D00332F95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7972B09F1B61773D00332F95 /* main.cpp */; };
+		7972B0BC1B61776B00332F95 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7972B0BB1B61776B00332F95 /* Makefile */; };
+		7972B0C01B6177A500332F95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7972B0BF1B6177A500332F95 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,31 @@
 
 /* Begin PBXFileReference section */
 		7972B09C1B61773D00332F95 /* SCFT_1D_July23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SCFT_1D_July23; sourceTree = BUILT_PRODUCTS_DIR; };
-		7972B09F1B61773D00332F95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7972B0A61B61776B00332F95 /* FreeEnergy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeEnergy.h; sourceTree = "<group>"; };
+		7972B0A71B61776B00332F95 /* secant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secant.h; sourceTree = "<group>"; };
+		7972B0A81B61776B00332F95 /* conc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conc.h; sourceTree = "<group>"; };
+		7972B0A91B61776B00332F95 /* phi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phi.h; sourceTree = "<group>"; };
+		7972B0AA1B61776B00332F95 /* loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loop.h; sourceTree = "<group>"; };
+		7972B0AB1B61776B00332F95 /* filename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filename.h; sourceTree = "<group>"; };
+		7972B0AC1B61776B00332F95 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		7972B0AD1B61776B00332F95 /* omega.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omega.h; sourceTree = "<group>"; };
+		7972B0AE1B61776B00332F95 /* Incomp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incomp.h; sourceTree = "<group>"; };
+		7972B0AF1B61776B00332F95 /* homogfE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homogfE.h; sourceTree = "<group>"; };
+		7972B0B01B61776B00332F95 /* Q_partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q_partition.h; sourceTree = "<group>"; };
+		7972B0B11B61776B00332F95 /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		7972B0B21B61776B00332F95 /* polymers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polymers.h; sourceTree = "<group>"; };
+		7972B0B31B61776B00332F95 /* TDMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMA.h; sourceTree = "<group>"; };
+		7972B0B41B61776B00332F95 /* solvediffeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solvediffeq.h; sourceTree = "<group>"; };
+		7972B0B51B61776B00332F95 /* vol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vol.h; sourceTree = "<group>"; };
+		7972B0B61B61776B00332F95 /* fE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fE.h; sourceTree = "<group>"; };
+		7972B0B71B61776B00332F95 /* smemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smemory.h; sourceTree = "<group>"; };
+		7972B0B81B61776B00332F95 /* fA.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fA.dat; sourceTree = "<group>"; };
+		7972B0B91B61776B00332F95 /* bilayer_N100.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bilayer_N100.dat; sourceTree = "<group>"; };
+		7972B0BA1B61776B00332F95 /* bilayer_N50.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bilayer_N50.dat; sourceTree = "<group>"; };
+		7972B0BB1B61776B00332F95 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		7972B0BD1B61778500332F95 /* results */ = {isa = PBXFileReference; lastKnownFileType = folder; path = results; sourceTree = "<group>"; };
+		7972B0BE1B61778500332F95 /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		7972B0BF1B6177A500332F95 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +82,31 @@
 		7972B09E1B61773D00332F95 /* SCFT_1D_July23 */ = {
 			isa = PBXGroup;
 			children = (
-				7972B09F1B61773D00332F95 /* main.cpp */,
+				7972B0BF1B6177A500332F95 /* main.cpp */,
+				7972B0BD1B61778500332F95 /* results */,
+				7972B0BE1B61778500332F95 /* parameters.h */,
+				7972B0A61B61776B00332F95 /* FreeEnergy.h */,
+				7972B0A71B61776B00332F95 /* secant.h */,
+				7972B0A81B61776B00332F95 /* conc.h */,
+				7972B0A91B61776B00332F95 /* phi.h */,
+				7972B0AA1B61776B00332F95 /* loop.h */,
+				7972B0AB1B61776B00332F95 /* filename.h */,
+				7972B0AC1B61776B00332F95 /* global.h */,
+				7972B0AD1B61776B00332F95 /* omega.h */,
+				7972B0AE1B61776B00332F95 /* Incomp.h */,
+				7972B0AF1B61776B00332F95 /* homogfE.h */,
+				7972B0B01B61776B00332F95 /* Q_partition.h */,
+				7972B0B11B61776B00332F95 /* output.h */,
+				7972B0B21B61776B00332F95 /* polymers.h */,
+				7972B0B31B61776B00332F95 /* TDMA.h */,
+				7972B0B41B61776B00332F95 /* solvediffeq.h */,
+				7972B0B51B61776B00332F95 /* vol.h */,
+				7972B0B61B61776B00332F95 /* fE.h */,
+				7972B0B71B61776B00332F95 /* smemory.h */,
+				7972B0B81B61776B00332F95 /* fA.dat */,
+				7972B0B91B61776B00332F95 /* bilayer_N100.dat */,
+				7972B0BA1B61776B00332F95 /* bilayer_N50.dat */,
+				7972B0BB1B61776B00332F95 /* Makefile */,
 			);
 			path = SCFT_1D_July23;
 			sourceTree = "<group>";
@@ -118,7 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7972B0A01B61773D00332F95 /* main.cpp in Sources */,
+				7972B0C01B6177A500332F95 /* main.cpp in Sources */,
+				7972B0BC1B61776B00332F95 /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
